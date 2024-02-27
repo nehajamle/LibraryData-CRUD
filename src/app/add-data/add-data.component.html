@@ -1,0 +1,41 @@
+<div class="row justify-content-center mt-5">
+    <div class="col-md-4"> 
+        <form (ngSubmit)="onSubmit()">
+            
+        <div class="form-group">
+        <label for="bookId">bookId:</label>
+        <input type="text" class="form-control" [(ngModel)]="bookId" name="bookId" required >
+        </div>
+        
+        <div class="form-group">
+        <label for="Id">bookName:</label>
+        <input type="text" class="form-control" [(ngModel)]="bookName" name="bookName">
+        </div>
+        
+        <div class="form-group">
+        <label for="bookAuthor">bookAuthor:</label>
+        <input type="text" class="form-control" [(ngModel)]="bookAuthor" name="bookAuthor">
+        </div>
+        
+        <div class="form-group">
+        <label for="issueBook">issueBook</label>
+        <input type="date" class="form-control" [(ngModel)]="issueBook" name="issueBook" required >
+        </div>
+        
+        <div class="form-group">
+        <label for="submitDate">submitDate:</label>
+        <input type="date" class="form-control" [(ngModel)]="submitDate" name="submitDate" required >
+        </div>
+        
+        <div class="form-group">
+        <label for="studentName">studentName</label>
+        <input type="text" class="form-control" [(ngModel)]="studentName" name="studentName" required >
+        </div>
+        
+        <div class="form-group">
+        <button class="btn btn-primary btn-block" type="submit"> ADD DATA </button>
+        </div>
+        
+    </form> 
+    </div>
+    </div>
