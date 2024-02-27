@@ -1,6 +1,7 @@
 # LibraryDataCRUD
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.12. 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.12.
+CRUD operations on Library Data using Angular Framework and asp.net web api and SSMS SQL Server db
 
 ## Development server
 
